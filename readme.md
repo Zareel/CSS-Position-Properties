@@ -1,6 +1,6 @@
 # CSS Position Properties
 
-![coverImage](./images/cssPositionArticleCoverImage.png)
+![cover](./images/cover.png)
 
 In this article we are going to walk
 
@@ -10,4 +10,4 @@ The position properties determine where the element should be located in the doc
 
 Here is an example, 👇
 
-![image](./images/positionArticleImage1.png)
+![image](./images/image1.png)
