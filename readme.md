@@ -1,6 +1,6 @@
 # CSS Position Properties
 
-![cover](./images/cover.png)
+![cover](https://user-images.githubusercontent.com/110910838/206276245-f4d7efe5-148c-4d60-9a2b-cb1ec158c9d0.png)
 
 In this article we are going to walk
 
