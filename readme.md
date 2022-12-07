@@ -25,7 +25,7 @@ Fixed
 
 Sticky
 
-Static
+# Static
 
 This is a default value. Static-positioned elements are not affected by the top, bottom, right, left, and z-index properties. This has no use cases.
 
@@ -63,10 +63,11 @@ body{
 }
 ```
 The output is 👇
-![pos2](https://user-images.githubusercontent.com/110910838/206276730-7e342dee-3d5b-453e-8c0c-c551f069fac5.png)
+![pos1](https://user-images.githubusercontent.com/110910838/206280209-3eaabc5f-3a8e-4666-9fd1-14e72fc51c39.png)
+
 To move our child element we can use four properties top, bottom, left, and right after giving it position properties. Let's try with relative value
 
-Relative
+# Relative
 ```css
 .child{
 position: relative;
@@ -75,17 +76,30 @@ left:80px
 }
 ```
 The output is 👇
-![pos3](https://user-images.githubusercontent.com/110910838/206276735-3da082ee-546e-4248-879e-4f1bf82ece9b.png)
+![pos2](https://user-images.githubusercontent.com/110910838/206276730-7e342dee-3d5b-453e-8c0c-c551f069fac5.png)
+
 The element is positioned relative to its normal position and offsets relative to itself based on the value we have given so here the child element now moved down by 80px and right by 80px
 
 The offset does not affect the position of any other elements.
 
 What about Absolute 🤔
 
-Absolute
+# Absolute
 ```css
 .child{
 position: absolute;
+}
+```
+The output looks like this 👇
+![pos3](https://user-images.githubusercontent.com/110910838/206276735-3da082ee-546e-4248-879e-4f1bf82ece9b.png)
+If the child element is given an absolute value, then the parent element will behave as if the child isn't there at all. And when we set other values such as top, bottom, left, and right, we can see the child element is responding not to the dimension of its parents, but to the document.
+
+Here is an example 👇
+```css
+.child{
+position: absolute;
+top: 50px;
+left:0px;
 }
 ```
 The output looks like this 👇
